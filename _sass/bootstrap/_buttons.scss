@@ -51,6 +51,12 @@
     @include box-shadow(none);
   }
 
+  &.outline {
+      background: none;
+      transition: 0.3s ease;
+      border: 3px;
+  }
+
   // [converter] extracted a& to a.btn
 }
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="blog">
+    <div class="brand">
+        <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-chevron-left"></span><span class="brand-name">SEBASTIAN BOOLEAN</span></a>
+    </div>
+    {% include sections/intro-blog.html %}
+    <div class="container page-content">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+
+    <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/bower_components/bootstrap/dist/js/bootstrap.min.js" | prepend: site.baseurl }}" /></script>
+    <script type="text/javascript" src="{{ "/js/parallax.js" | prepend: site.baseurl }}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".brand").addClass("slide-in");
+        });
+    </script>
+
+  </script>
+  </body>
+
+</html>
