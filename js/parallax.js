@@ -26,4 +26,9 @@ $(document).ready(function(){
    $(window).resize(function(){
        intro.css({'height':($(window).height())+'px'})
    })
-}); // close out script
+
+   // intro animation
+   $(".slider").css({'width':'100px'});
+
+
+}); 
