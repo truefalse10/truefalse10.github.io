@@ -19,6 +19,24 @@
     <script type="text/javascript" src="{{ "/bower_components/bootstrap/dist/js/bootstrap.min.js" | prepend: site.baseurl }}" /></script>
     <script type="text/javascript" src="{{ "/js/parallax.js" | prepend: site.baseurl }}"></script>
 
+    // smooth scrolling to anchor links
+    <script type="text/javascript">
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+            });
+        });
+    </script>
+
   </script>
   </body>
 

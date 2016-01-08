@@ -19,16 +19,16 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
 
-   var intro = $("#intro");
-   intro.css({'height':($(window).height())+'px'});
-
-   // listen for window resize
-   $(window).resize(function(){
-       intro.css({'height':($(window).height())+'px'})
-   })
+   // var intro = $("#intro");
+   // intro.css({'height':($(window).height())+'px'});
+   //
+   // // listen for window resize
+   // $(window).resize(function(){
+   //     intro.css({'height':($(window).height())+'px'})
+   // })
 
    // intro animation
    $(".slider").css({'width':'100px'});
 
 
-}); 
+});

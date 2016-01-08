@@ -1,3 +1,5 @@
+$color-font-intro: #424242;
+
 .brand {
     position: fixed;
     left: -300px;
@@ -11,10 +13,10 @@
 
     a {
         font-size: 1.3em;
-        color: white;
+        color: $color-font-intro;
 
         &:hover, &:active, &:visited {
-            color: white;
+            color: $color-font-intro;
             text-decoration: none;
         }
     }
@@ -24,20 +26,29 @@
 }
 
 #intro {
-    background: url('../assets/images/intro.jpg') 50% 0 fixed;
+    //background: url('../assets/images/desk-white-black-header.jpg');
+    background: url('../assets/images/1200_4.jpg') 50% 0 fixed;
+    // schreibtisch von vorne
+    //background: url('../assets/images/MTI5MDI1NzE5NzQwMTc2ODYy.jpg') 50% 0 fixed;
+    // mac seitlich
+    //background: url('../assets/images/mac.jpg') 50% 0 fixed;
+    //background-position: bottom center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    min-height: 300px;
+    padding: 30px;
     position: relative;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     display: table;
     text-align: center;
+    @media (min-width: $screen-lg-min) {
+        background-size: 100%;
+    }
 }
 
 // intro blog
 #intro-blog {
-    background: url('../assets/images/intro.jpg') 50% 0 fixed;
+    background: url('../assets/images/1200_4.jpg') 50% 0 fixed;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -64,7 +75,7 @@
     vertical-align: middle;
 }
 .intro {
-    color: $color-white;
+    color: $color-font-intro;
     margin-bottom: 30px;
 
     h1 {
@@ -84,25 +95,11 @@
 .slider {
     display: inline-block;
     width: 0px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid $color-font-intro;
     height: 3px;
     transition: 0.85s ease;
     transition-delay: 500ms;
 
-}
-.sliding-borders {
-    display: inline;
-    text-decoration: none;
-    border-bottom: 3px solid transparent;
-    transition: 0.5s ease;
-    white-space: nowrap;
-
-
-
-    &:hover {
-        border-bottom: 3px solid $color-white;
-        border-top: 3px solid $color-white;
-    }
 }
 .profil-image {
     background-image: url('../assets/images/profile.jpg');
