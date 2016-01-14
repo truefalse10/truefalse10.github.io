@@ -38,7 +38,7 @@ $color-font-intro: #424242;
     width: 100%;
     padding: 30px;
     position: relative;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
     display: table;
     text-align: center;
     @media (min-width: $screen-lg-min) {
@@ -54,20 +54,24 @@ $color-font-intro: #424242;
     width: 100%;
     height: 300px;
     position: relative;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
     display: table;
     text-align: center;
 }
 
 #footer {
-    background: url('../assets/images/desk_top_view.jpg') 50% 0 fixed;
+    background: url('../assets/images/1200_4.jpg') 50% bottom fixed;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     position: relative;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
     display: table;
     text-align: center;
+    margin-top: 40px;
+    @media (min-width: $screen-lg-min) {
+        background-size: 100%;
+    }
 }
 
 .intro-wrapper {
@@ -76,13 +80,16 @@ $color-font-intro: #424242;
 }
 .intro {
     color: $color-font-intro;
-    margin-bottom: 30px;
+
 
     h1 {
         display: inline;
         font-size: 3.25em;
         text-transform: uppercase;
         font-weight: bold;
+    }
+    .title {
+        text-shadow: 0px 0px 7px #DCDCDC;
     }
 
     .subline {
@@ -129,11 +136,8 @@ footer {
         }
     }
     &.site-footer {
-        background-color: rgba(0, 0, 0, 0.3);
-        margin: 50px 0px;
-        padding: 50px;
-        border-radius: 4px;
-        color: white;
+        margin-top: 30px;
+        margin-bottom: 170px;
     }
 }
 .blog {
@@ -148,4 +152,10 @@ footer {
         text-transform: uppercase;
         margin-bottom: 0;
     }
+}
+
+// about section
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
