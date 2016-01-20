@@ -1,0 +1,17 @@
+<h1>
+    {{ site.data.projects[page.project].title }}
+</h1>
+<ul>
+    {% for technologie in site.data.projects[page.project].technologies %}
+    <li>
+        {{ technologie }}
+    </li>
+    {% endfor %}
+</ul>
+<p>
+    {{ site.data.projects[page.project].description }}
+</p>
+<img src="{{ site.data.projects[page.project].imgUrl }}" class="img-responsive" />
+<p>
+    {{ site.data.projects[page.project].subline }}
+</p>
