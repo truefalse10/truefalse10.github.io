@@ -11,7 +11,7 @@ layout: default
         {% for project in site.data.projects %}
             <div class="col-sm-4 col-xs-12 atom-work-item creative corporate video">
                <a href="{{ project.url }}">
-                   <img src="{{ project.imgUrl | prepend: site.baseurl }}" alt="" class="img-responsive">
+                   <img src="{{ project.imgUrl[0] | prepend: site.baseurl }}" alt="" class="img-responsive">
                    <div class="desc text-center">
                        <h2>{{ project.title }}</h2>
                        <p>{{ project.subtitle }}</p>
