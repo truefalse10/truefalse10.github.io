@@ -11,7 +11,17 @@
 <p>
     {{ site.data.projects[page.project].description }}
 </p>
-<img src="{{ site.data.projects[page.project].imgUrl }}" class="img-responsive" />
+<div class="single-project-gallery row">
+    <div class="main-image col-md-9">
+        <img src="{{ site.data.projects[page.project].imgUrl }}" class="img-responsive" />
+    </div>
+    <div class="preview-images col-md-3">
+        {% for img in site.data.projects[page.project].imgUrl %}
+            <img src="{{ img }}" class="img-responsive" />
+        {% endfor %}
+    </div>
+
+</div>
 <p>
     {{ site.data.projects[page.project].subline }}
 </p>

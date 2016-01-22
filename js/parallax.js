@@ -30,5 +30,17 @@ $(document).ready(function(){
    // intro animation
    $(".slider").css({'width':'100px'});
 
+   // gallery image replacement
+   var gallery = $(".single-project-gallery");
+
+   var mainImg = $(".main-image img");
+   var previewImages = $(".preview-images img");
+
+   previewImages.click(function() {
+       var prevSrc = $(this).attr('src')
+       mainImg.attr('src', prevSrc);
+   });
+
+
 
 });
