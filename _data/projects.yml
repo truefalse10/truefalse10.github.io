@@ -1,33 +1,75 @@
-- title: Large project for some Costumer
+- title: Project 1
   subtitle: subtitle
   url: /work/project1
   imgUrl:
-      - /assets/images/22.jpg
-      - /assets/images/50.jpg
+      - /assets/images/projects/sample-3.jpg
+      - /assets/images/projects/sample-4.jpg
   technologies:
       - Grunt
       - NodeJS
       - HTML
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  demoUrl: http://www.google.com/
+  githubUrl: http://www.github.com/
 
-
-- title: secondProject
+- title: Project 2
   subtitle: subtitle
-  url: /work/project2
+  url: /work/project1
+  imgUrl:
+    - /assets/images/projects/sample-2.jpg
+- title: Project 3
+  subtitle: subtitle
+  url: /work/project1
+  imgUrl:
+    - /assets/images/projects/sample-1.jpg
+
+- title: Project 4
+  subtitle: subtitle
+  url: /work/project1
+  imgUrl:
+    - /assets/images/projects/sample-4.jpg
+
+- title: Project 1
+  subtitle: subtitle
+  url: /work/project1
+  imgUrl:
+      - /assets/images/projects/sample-3.jpg
+      - /assets/images/projects/sample-4.jpg
   technologies:
-    - Grunt
-    - NodeJS
-    - HTML
-  imgUrl:
-    - /assets/images/22.jpg
+      - Grunt
+      - NodeJS
+      - HTML
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  demoUrl: http://www.google.com/
+  githubUrl: http://www.github.com/
 
-- title: thirdProject
-  subtitle:
+- title: Project 2
+  subtitle: subtitle
+  url: /work/project1
   imgUrl:
-    - /assets/images/28.jpg
+    - /assets/images/projects/sample-2.jpg
+- title: Project 3
+  subtitle: subtitle
+  url: /work/project1
+  imgUrl:
+    - /assets/images/projects/sample-1.jpg
 
-- title: thirdProject
-  subtitle:
+- title: Project 4
+  subtitle: subtitle
+  url: /work/project1
   imgUrl:
-    - /assets/images/28.jpg
+    - /assets/images/projects/sample-4.jpg
+
+- title: Project 1
+  subtitle: subtitle
+  url: /work/project1
+  imgUrl:
+      - /assets/images/projects/sample-3.jpg
+      - /assets/images/projects/sample-4.jpg
+  technologies:
+      - Grunt
+      - NodeJS
+      - HTML
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  demoUrl: http://www.google.com/
+  githubUrl: http://www.github.com/

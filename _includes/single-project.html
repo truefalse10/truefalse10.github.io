@@ -1,7 +1,7 @@
 <h1>
     {{ site.data.projects[page.project].title }}
 </h1>
-<ul>
+<ul class="technologies">
     {% for technologie in site.data.projects[page.project].technologies %}
     <li>
         {{ technologie }}
@@ -11,6 +11,14 @@
 <p>
     {{ site.data.projects[page.project].description }}
 </p>
+
+{% if site.data.projects[page.project].demoUrl %}
+    <a href="{{site.data.projects[page.project].demoUrl}}" class="btn btn-primary" target="_blank">View Project</a> 
+{% endif %}
+{% if site.data.projects[page.project].githubUrl %}
+    <a href="{{site.data.projects[page.project].githubUrl}}" class="btn btn-warning" target="_blank">Github</a>
+{% endif %}
+
 <div class="single-project-gallery row">
     <div class="main-image col-md-9">
         <img src="{{ site.data.projects[page.project].imgUrl }}" class="img-responsive" />
