@@ -1,6 +1,11 @@
 $color-font-intro: #424242;
 $color-white: #fff;
 $color-black: #000;
+$font-family-base:  "Raleway", Arial, Helvetica, sans-serif !default;
+
+section {
+    font-family: $font-family-base;
+}
 
 .brand {
     position: absolute;
