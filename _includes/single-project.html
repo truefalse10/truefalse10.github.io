@@ -13,10 +13,10 @@
 </p>
 
 {% if site.data.projects[page.project].demoUrl %}
-    <a href="{{site.data.projects[page.project].demoUrl}}" class="btn btn-primary" target="_blank">View Project</a> 
+    <a href="{{site.data.projects[page.project].demoUrl}}" class="btn btn-primary" target="_blank">View Project</a>
 {% endif %}
 {% if site.data.projects[page.project].githubUrl %}
-    <a href="{{site.data.projects[page.project].githubUrl}}" class="btn btn-warning" target="_blank">Github</a>
+    <a href="{{site.baseurl}}{{site.data.projects[page.project].githubUrl}}" class="btn btn-warning" target="_blank">Github</a>
 {% endif %}
 
 <div class="single-project-gallery row">
@@ -25,11 +25,8 @@
     </div>
     <div class="preview-images col-md-3">
         {% for img in site.data.projects[page.project].imgUrl %}
-            <img src="{{ img }}" class="img-responsive" />
+            <img src="{{ img | prepend: site.baseurl }}" class="img-responsive" />
         {% endfor %}
     </div>
 
-</div>
-<p>
-    {{ site.data.projects[page.project].subline }}
-</p>
+</div>  
