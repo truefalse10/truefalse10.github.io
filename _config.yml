@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Sebastian Boolean - Frontend Developer
+email: truefalse@posteo.de
+description: > # this means to ignore newlines until "baseurl:"
+  I am Sebastian Boolean a frontend developer, designer and freelancer based in Munich, Germany.
+  I do design and implementation of responsive websites, webapps, nodejs apps and pretty much everything
+  related to javascript.
+baseurl: "http://truefalse10.github.io/boolean-jekyll-template" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: truefalse01
+github_username:  truefalse10
+
+# Build settings
+markdown: kramdown

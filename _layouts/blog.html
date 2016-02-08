@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="blog">
+    <div class="brand">
+        <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-chevron-left"></span><span class="brand-name">SEBASTIAN BOOLEAN</span></a>
+    </div>
+    {% include sections/intro-blog.html %}
+    <div class="container content">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ "/js/parallax.js" | prepend: site.baseurl }}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".brand").addClass("slide-in");
+        });
+    </script>
+
+  </script>
+  </body>
+
+</html>

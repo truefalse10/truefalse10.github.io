@@ -1,0 +1,27 @@
+<section id="footer">
+    <footer class="col-md-6 col-md-offset-3 site-footer">
+
+
+        <h3>{{ site.title }}</h3>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+        <p>{{ site.description }}</p>
+        <p>
+            You can follow me on:
+        </p>
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+
+    </footer>
+</section>
