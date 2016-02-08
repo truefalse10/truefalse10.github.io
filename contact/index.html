@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section class="container content contact text-center">
+    <h1>Let's chat about your next project</h1>
+    <br>
+    <p class="lead">
+        To check when I’m free to work, or to discuss your project and ideas, please send an email to <a href="{{site.email}}">{{site.email}}</a> or use the contact form below:</a>
+    </p>
+    <br>
+
+    <!--
+    this for uses formspee, it is a service that sends the content of this for to your email address
+    with the need of a backend or php. It is free up to 1000 form submits a month
+    see: http://formspree.io/
+    -->
+
+    <div class="col-lg-8 col-lg-offset-2">
+        <form class="form-horizontal" action="//formspree.io/{{site.email}}"
+          method="POST">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">Name:</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="name">
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="email" name="_replyto">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="message">Message:</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" name="message" rows="5" cols="40"></textarea>
+                </div>
+            </div>
+            <input class="btn btn-primary pull-right" type="submit" value="Send">
+        </form>
+    </div>
+
+
+</section>
