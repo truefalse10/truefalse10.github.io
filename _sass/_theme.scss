@@ -203,11 +203,18 @@ footer {
     }
 
     .desc {
+        color: $color-white;
         position: absolute;
         top: 60%;
         left: 35%;
         transform: translate(-50%, -50%);
         z-index: 2;
+    }
+
+    &.inverted {
+        .desc {
+            color: $color-black;
+        }
     }
 }
 .work-grids-area {
@@ -241,7 +248,7 @@ footer {
                     transform: scale(1.55, 1.55);
                 }
                 h2, p {
-                    color: white;
+
                     opacity: 1;
                     transform: translateY(0px);
                 }
@@ -283,6 +290,10 @@ footer {
                 }
             }
         }
+    }
+    .project-title .subtitle {
+        font-size: 0.5em;
+        font-weight: normal;
     }
 }
 

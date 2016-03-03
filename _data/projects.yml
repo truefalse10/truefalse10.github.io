@@ -1,75 +1,75 @@
-- title: Project 1
-  subtitle: subtitle
+- title: Mini Configurator
+  subtitle: Angular App
   url: /work/project-1
   imgUrl:
-      - /assets/images/projects/sample-3.jpg
-      - /assets/images/projects/sample-4.jpg
+      - /assets/images/projects/mini_1.png
+      - /assets/images/projects/mini_2.png
+      - /assets/images/projects/mini_3.png
   technologies:
-      - Grunt
+      - Angular
       - NodeJS
-      - HTML
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  description: The Mini Configurator App is an online car configurator where customers can style and visually test all available Mini Models. Changes to the configuration are instantly rendered and displayed as a 3D model with updated prices and offers from BMW. The page is fully responsive and has plenty of ux features like turning lights on/off, 360 degree interior view or fancy wheel change animations.
   demoUrl: http://www.google.com/
-  githubUrl: http://www.github.com/
 
-- title: Project 2
-  subtitle: subtitle
-  url: /work/project1
+- title: Mini Mobile
+  subtitle: Responsive HTML5 App
+  url: /work/project-2
+  demoUrl: http://m.mini.de/
   imgUrl:
-    - /assets/images/projects/sample-2.jpg
-- title: Project 3
-  subtitle: subtitle
-  url: /work/project1
-  imgUrl:
-    - /assets/images/projects/sample-1.jpg
-
-- title: Project 4
-  subtitle: subtitle
-  url: /work/project1
-  imgUrl:
-    - /assets/images/projects/sample-4.jpg
-
-- title: Project 1
-  subtitle: subtitle
-  url: /work/project1
-  imgUrl:
-      - /assets/images/projects/sample-3.jpg
-      - /assets/images/projects/sample-4.jpg
+    - /assets/images/projects/mini_1.png
+    - /assets/images/projects/mini_mobi_2.png
+    - /assets/images/projects/mini_mobi_3.png
   technologies:
-      - Grunt
-      - NodeJS
-      - HTML
+    - HTML5
+- title: BMW Configurator
+  subtitle: Angular App
+  url: /work/project-3
+  demoUrl: http://www.bmw.de/
+  description: The BMW Configurator is built on the same modules as the Mini Configurator but has a total different visual appearance. It includes 360 degree vehicle view, day/night view and a 360 degree interior view. It is responsive and fully based on javascript.
+  class: inverted
+  technologies:
+    - Angular
+    - NodeJS
+  imgUrl:
+    - /assets/images/projects/bmw_1.png
+
+- title: Allianz
+  subtitle: Angular Styleguide
+  url: /work/project-4
+  class: inverted
+  description: This idea of this project was to create a visual styleguide for all online insurance forms from Allianz. All parts of the form pages are angular modules which can be 
+  technologies:
+    - Angular
+    - Bootstrap
+    - NodeJS
+  imgUrl:
+    - /assets/images/projects/allianz_2.png
+    - /assets/images/projects/allianz_1.png
+    - /assets/images/projects/allianz_3.png
+    - /assets/images/projects/allianz_4.png
+    - /assets/images/projects/allianz_5.png
+- title: IWW Music
+  subtitle: Bootstrap page
+  url: /work/project-5
+  technologies:
+    - Jekyll
+    - Bootstrap
+  imgUrl:
+      - /assets/images/projects/iww_1.png
+      - /assets/images/projects/iww_2.png
+      - /assets/images/projects/iww_3.png
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  demoUrl: http://www.google.com/
+  demoUrl: http://www.iww-music.com
   githubUrl: http://www.github.com/
-
-- title: Project 2
-  subtitle: subtitle
-  url: /work/project1
+- title: Sebastian Boolean
+  subtitle: Jekyll Template
+  url: /work/project-6
   imgUrl:
-    - /assets/images/projects/sample-2.jpg
-- title: Project 3
-  subtitle: subtitle
-  url: /work/project1
-  imgUrl:
-    - /assets/images/projects/sample-1.jpg
-
-- title: Project 4
-  subtitle: subtitle
-  url: /work/project1
-  imgUrl:
-    - /assets/images/projects/sample-4.jpg
-
-- title: Project 1
-  subtitle: subtitle
-  url: /work/project1
-  imgUrl:
-      - /assets/images/projects/sample-3.jpg
-      - /assets/images/projects/sample-4.jpg
+      - /assets/images/projects/boolean_1.png
+      - /assets/images/projects/boolean_2.png
   technologies:
-      - Grunt
-      - NodeJS
-      - HTML
+      - Jekyll
+      - Bootstrap
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   demoUrl: http://www.google.com/
   githubUrl: http://www.github.com/
