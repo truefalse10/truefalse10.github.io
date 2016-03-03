@@ -16,7 +16,7 @@
   url: /work/project-2
   demoUrl: http://m.mini.de/
   imgUrl:
-    - /assets/images/projects/mini_1.png
+    - /assets/images/projects/mini_mobi_4.png
     - /assets/images/projects/mini_mobi_2.png
     - /assets/images/projects/mini_mobi_3.png
   technologies:
@@ -37,7 +37,7 @@
   subtitle: Angular Styleguide
   url: /work/project-4
   class: inverted
-  description: This idea of this project was to create a visual styleguide for all online insurance forms from Allianz. All parts of the form pages are angular modules which can be 
+  description: This idea of this project was to create a visual styleguide for all online insurance forms from Allianz. All parts of the form pages are angular modules which can be
   technologies:
     - Angular
     - Bootstrap
@@ -58,9 +58,7 @@
       - /assets/images/projects/iww_1.png
       - /assets/images/projects/iww_2.png
       - /assets/images/projects/iww_3.png
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   demoUrl: http://www.iww-music.com
-  githubUrl: http://www.github.com/
 - title: Sebastian Boolean
   subtitle: Jekyll Template
   url: /work/project-6
@@ -70,6 +68,5 @@
   technologies:
       - Jekyll
       - Bootstrap
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  demoUrl: http://www.google.com/
-  githubUrl: http://www.github.com/
+  demoUrl: http://github.sebastianboolean.de/
+  githubUrl: https://github.com/truefalse10/boolean-jekyll-template
