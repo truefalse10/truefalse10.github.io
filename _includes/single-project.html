@@ -22,7 +22,7 @@
 
 <div class="single-project-gallery row">
     <div class="main-image col-md-9">
-        <img src="{{ site.data.projects[page.project].imgUrl }}" class="img-responsive" />
+        <img src="{{ site.data.projects[page.project].imgUrl[0] }}" class="img-responsive" />
     </div>
     <div class="preview-images col-md-3">
         {% for img in site.data.projects[page.project].imgUrl %}
